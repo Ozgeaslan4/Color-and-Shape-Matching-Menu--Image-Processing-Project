@@ -20,18 +20,15 @@ Setup Instructions
 Clone the repository:
 
 bash
-Kodu kopyala
 git clone https://github.com/yourusername/restaurant-menu-system.git
 cd restaurant-menu-system
 Install required packages:
 
 bash
-Kodu kopyala
 pip install opencv-python numpy
 Run the program: After ensuring your system has OpenCV installed, you can run the main program:
 
 bash
-Kodu kopyala
 python main.py
 Upload an Image of the Order: The program will prompt you to upload an image file (e.g., yourorder.png) containing the selected objects. The program will then analyze the image to recognize the colors and shapes of the objects and interpret them as dishes.
 
